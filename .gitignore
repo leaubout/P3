@@ -1,32 +1,32 @@
 # Directories content
-cache/class_index.php
-cache/smarty/cache/*
-!cache/smarty/cache/index.php
-cache/smarty/compile/*
-!cache/smarty/compile/index.php
-cache/tcpdf/*
-!cache/tcpdf/index.php
+src/public/cache/class_index.php
+src/public/cache/smarty/cache/*
+!src/publiccache/smarty/cache/index.php
+src/public/cache/smarty/compile/*
+!src/public/cache/smarty/compile/index.php
+src/public/cache/tcpdf/*
+!src/public/cache/tcpdf/index.php
 
-config/xml/*.xml
-config/settings.inc.php
+src/public/config/xml/*.xml
+src/public/config/settings.inc.php
 
-log/*.log
+src/public/log/*.log
 
-img/*
-!img/index.php
-!img/*/index.php
+src/public/img/*
+!src/public/img/index.php
+!src/public/img/*/index.php
 
-tools/smarty*/cache/*.php
-!tools/smarty*/cache/index.php
-tools/smarty*/compile/*.php
-!tools/smarty*/compile/index.php
+src/public/tools/smarty*/cache/*.php
+!src/public/tools/smarty*/cache/index.php
+src/public/tools/smarty*/compile/*.php
+!src/public/tools/smarty*/compile/index.php
 
-themes/default/cache/*.js
-themes/default/cache/*.css
+src/public/themes/default/cache/*.js
+src/public/themes/default/cache/*.css
 
 # Ignore files on root directory
-robots.txt
-sitemap.xml
+src/public/robots.txt
+src/public/sitemap.xml
 /.vagrant/
 /.settings/
 /.buildpath
