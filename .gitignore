@@ -1,7 +1,7 @@
 # Directories content
 src/public/cache/class_index.php
 src/public/cache/smarty/cache/*
-!src/publiccache/smarty/cache/index.php
+!src/public/cache/smarty/cache/index.php
 src/public/cache/smarty/compile/*
 !src/public/cache/smarty/compile/index.php
 src/public/cache/tcpdf/*
